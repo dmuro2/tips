@@ -18,6 +18,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel3: UILabel!
     @IBOutlet weak var totalLabel4: UILabel!
     @IBOutlet weak var personIcon1: UIImageView!
+    @IBOutlet weak var personIcon21: UIImageView!
+    @IBOutlet weak var personIcon22: UIImageView!
+    @IBOutlet weak var personIcon31: UIImageView!
+    @IBOutlet weak var personIcon32: UIImageView!
+    @IBOutlet weak var personIcon33: UIImageView!
+    @IBOutlet weak var personIcon41: UIImageView!
+    @IBOutlet weak var personIcon42: UIImageView!
+    @IBOutlet weak var personIcon43: UIImageView!
+    @IBOutlet weak var personIcon44: UIImageView!
+    @IBOutlet weak var rule1: UIView!
+    @IBOutlet weak var rule2: UIView!
+    @IBOutlet weak var rule3: UIView!
+    @IBOutlet weak var rule4: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +50,22 @@ class ViewController: UIViewController {
             self.totalLabel2.hidden = true
             self.totalLabel3.hidden = true
             self.totalLabel4.hidden = true
+            
+            self.personIcon1.hidden = true
+            self.personIcon21.hidden = true
+            self.personIcon22.hidden = true
+            self.personIcon31.hidden = true
+            self.personIcon32.hidden = true
+            self.personIcon33.hidden = true
+            self.personIcon41.hidden = true
+            self.personIcon42.hidden = true
+            self.personIcon43.hidden = true
+            self.personIcon44.hidden = true
+            
+            self.rule1.hidden = true
+            self.rule2.hidden = true
+            self.rule3.hidden = true
+            self.rule4.hidden = true
         }
     }
 

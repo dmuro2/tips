@@ -125,6 +125,11 @@
                                         <color key="textColor" red="0.99859368800000003" green="0.93659985069999996" blue="0.83961439130000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" id="t5t-Rv-FvX">
+                                        <rect key="frame" x="24" y="183" width="273" height="2"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.99836152789999999" green="0.92552989720000001" blue="0.80363845830000002" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
+                                    </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$38.33" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cwQ-kL-gbz">
                                         <rect key="frame" x="55" y="195" width="242" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -149,11 +154,6 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.99836152789999999" green="0.92552989720000001" blue="0.80363845830000002" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
                                     </view>
-                                    <view contentMode="scaleToFill" id="t5t-Rv-FvX">
-                                        <rect key="frame" x="24" y="183" width="273" height="2"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.99836152789999999" green="0.92552989720000001" blue="0.80363845830000002" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
-                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98835819960000004" green="0.35373812910000002" blue="0.3761391342" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -167,7 +167,20 @@
                     </view>
                     <connections>
                         <outlet property="billField" destination="KR9-4W-ON0" id="Ufy-En-I3e"/>
-                        <outlet property="personIcon1" destination="95s-5a-1tS" id="1oX-Nk-ZdA"/>
+                        <outlet property="personIcon1" destination="95s-5a-1tS" id="8uv-y6-hd5"/>
+                        <outlet property="personIcon21" destination="HKG-WV-Bbj" id="lSY-AL-GP6"/>
+                        <outlet property="personIcon22" destination="Udq-go-6fb" id="zNx-fE-byi"/>
+                        <outlet property="personIcon31" destination="dde-W7-Vjo" id="YoV-4H-lyx"/>
+                        <outlet property="personIcon32" destination="ucy-m0-hEo" id="oo6-to-yXt"/>
+                        <outlet property="personIcon33" destination="RIT-H9-3c0" id="KxH-jT-eJM"/>
+                        <outlet property="personIcon41" destination="lW9-ex-KTj" id="LUw-6d-fMt"/>
+                        <outlet property="personIcon42" destination="EYd-ne-lJa" id="lgK-2C-uWt"/>
+                        <outlet property="personIcon43" destination="smN-TW-WoJ" id="4sb-yE-805"/>
+                        <outlet property="personIcon44" destination="NKV-mC-P4y" id="zcJ-6X-1AC"/>
+                        <outlet property="rule1" destination="Zgg-ac-Hbn" id="rib-7x-qc5"/>
+                        <outlet property="rule2" destination="t5t-Rv-FvX" id="k6g-he-xdA"/>
+                        <outlet property="rule3" destination="Qfa-6G-HWR" id="pWh-IT-k4z"/>
+                        <outlet property="rule4" destination="Tfc-aM-X6N" id="6Sz-PB-VGn"/>
                         <outlet property="tipControl" destination="5kk-Nd-qoJ" id="Qr9-mn-8Dr"/>
                         <outlet property="tipLabel" destination="ov9-1l-njj" id="RSe-3X-Njy"/>
                         <outlet property="totalLabel" destination="v37-PP-OiU" id="Bm1-tv-stq"/>
