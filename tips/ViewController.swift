@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel2: UILabel!
     @IBOutlet weak var totalLabel3: UILabel!
     @IBOutlet weak var totalLabel4: UILabel!
+    @IBOutlet weak var personIcon1: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,8 +28,19 @@ class ViewController: UIViewController {
         totalLabel2.text = "$0"
         totalLabel3.text = "$0"
         totalLabel4.text = "$0"
+        
+        func hideContainerView(){
+            
+            self.tipLabel.hidden = true
+            
+            self.totalLabel.hidden = true
+            self.totalLabel2.hidden = true
+            self.totalLabel3.hidden = true
+            self.totalLabel4.hidden = true
+        }
     }
 
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

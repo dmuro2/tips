@@ -167,6 +167,7 @@
                     </view>
                     <connections>
                         <outlet property="billField" destination="KR9-4W-ON0" id="Ufy-En-I3e"/>
+                        <outlet property="personIcon1" destination="95s-5a-1tS" id="1oX-Nk-ZdA"/>
                         <outlet property="tipControl" destination="5kk-Nd-qoJ" id="Qr9-mn-8Dr"/>
                         <outlet property="tipLabel" destination="ov9-1l-njj" id="RSe-3X-Njy"/>
                         <outlet property="totalLabel" destination="v37-PP-OiU" id="Bm1-tv-stq"/>
