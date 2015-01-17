@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var rule2: UIView!
     @IBOutlet weak var rule3: UIView!
     @IBOutlet weak var rule4: UIView!
+    @IBOutlet weak var segControl: UISegmentedControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +45,7 @@ class ViewController: UIViewController {
         
         func hideContainerView(){
             
+            //try putting these into an array
             self.tipLabel.hidden = true
             
             self.totalLabel.hidden = true
@@ -66,6 +68,8 @@ class ViewController: UIViewController {
             self.rule2.hidden = true
             self.rule3.hidden = true
             self.rule4.hidden = true
+            
+            self.segControl.hidden = true
         }
     }
 

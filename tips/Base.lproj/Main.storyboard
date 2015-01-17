@@ -181,6 +181,7 @@
                         <outlet property="rule2" destination="t5t-Rv-FvX" id="k6g-he-xdA"/>
                         <outlet property="rule3" destination="Qfa-6G-HWR" id="pWh-IT-k4z"/>
                         <outlet property="rule4" destination="Tfc-aM-X6N" id="6Sz-PB-VGn"/>
+                        <outlet property="segControl" destination="5kk-Nd-qoJ" id="9B5-HZ-yAN"/>
                         <outlet property="tipControl" destination="5kk-Nd-qoJ" id="Qr9-mn-8Dr"/>
                         <outlet property="tipLabel" destination="ov9-1l-njj" id="RSe-3X-Njy"/>
                         <outlet property="totalLabel" destination="v37-PP-OiU" id="Bm1-tv-stq"/>
