@@ -20,12 +20,6 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <tapGestureRecognizer id="xLH-eY-qco">
-                    <connections>
-                        <action selector="onTap:" destination="vXZ-lx-hvc" id="98m-6r-zuq"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="tips" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -38,7 +32,7 @@
                                 <color key="textColor" red="0.35250949860000003" green="0.35892251130000002" blue="0.37437978389999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$0" textAlignment="right" minimumFontSize="17" id="KR9-4W-ON0">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$" textAlignment="right" minimumFontSize="17" id="KR9-4W-ON0">
                                 <rect key="frame" x="136" y="65" width="160" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.98835819960000004" green="0.35373812910000002" blue="0.3761391342" alpha="1" colorSpace="calibratedRGB"/>
@@ -181,6 +175,12 @@
                         <outlet property="totalLabel4" destination="TIe-x1-hG3" id="ipY-qI-dVo"/>
                     </connections>
                 </viewController>
+                <tapGestureRecognizer id="xLH-eY-qco">
+                    <connections>
+                        <action selector="onTap:" destination="vXZ-lx-hvc" id="98m-6r-zuq"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="232" y="359"/>
         </scene>
