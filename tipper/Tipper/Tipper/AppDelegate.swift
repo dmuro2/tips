@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  tips
+//  Tipper
 //
-//  Created by David Muro on 1/13/15.
+//  Created by David Muro II on 1/17/15.
 //  Copyright (c) 2015 David Muro II. All rights reserved.
 //
 
@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true
-        
     }
 
     func applicationWillResignActive(application: UIApplication) {

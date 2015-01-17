@@ -13,7 +13,61 @@
 		2E53C2B81A664D600019C3D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E53C2B71A664D600019C3D8 /* Images.xcassets */; };
 		2E53C2BB1A664D600019C3D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E53C2B91A664D600019C3D8 /* LaunchScreen.xib */; };
 		2E53C2C71A664D600019C3D8 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E53C2C61A664D600019C3D8 /* tipsTests.swift */; };
-		555910E51A6A4DCA00CD4A8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555910E41A6A4DCA00CD4A8C /* Main.storyboard */; };
+		5559111B1A6A5DD400CD4A8C /* NeutraDisp-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910E61A6A5DD400CD4A8C /* NeutraDisp-Bold.otf */; };
+		5559111C1A6A5DD400CD4A8C /* NeutraDisp-BoldAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910E71A6A5DD400CD4A8C /* NeutraDisp-BoldAlt.otf */; };
+		5559111D1A6A5DD400CD4A8C /* NeutraDisp-Drafting.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910E81A6A5DD400CD4A8C /* NeutraDisp-Drafting.otf */; };
+		5559111E1A6A5DD400CD4A8C /* NeutraDisp-DraftingAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910E91A6A5DD400CD4A8C /* NeutraDisp-DraftingAlt.otf */; };
+		5559111F1A6A5DD400CD4A8C /* NeutraDisp-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910EA1A6A5DD400CD4A8C /* NeutraDisp-Light.otf */; };
+		555911201A6A5DD400CD4A8C /* NeutraDisp-LightAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910EB1A6A5DD400CD4A8C /* NeutraDisp-LightAlt.otf */; };
+		555911211A6A5DD400CD4A8C /* NeutraDisp-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910EC1A6A5DD400CD4A8C /* NeutraDisp-Medium.otf */; };
+		555911221A6A5DD400CD4A8C /* NeutraDisp-MediumAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910ED1A6A5DD400CD4A8C /* NeutraDisp-MediumAlt.otf */; };
+		555911231A6A5DD400CD4A8C /* NeutraDisp-Num.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910EE1A6A5DD400CD4A8C /* NeutraDisp-Num.otf */; };
+		555911241A6A5DD400CD4A8C /* NeutraDisp-NumAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910EF1A6A5DD400CD4A8C /* NeutraDisp-NumAlt.otf */; };
+		555911251A6A5DD400CD4A8C /* NeutraDisp-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910F01A6A5DD400CD4A8C /* NeutraDisp-Thin.otf */; };
+		555911261A6A5DD400CD4A8C /* NeutraDisp-ThinAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910F11A6A5DD400CD4A8C /* NeutraDisp-ThinAlt.otf */; };
+		555911271A6A5DD400CD4A8C /* NeutraDisp-Titling.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910F21A6A5DD400CD4A8C /* NeutraDisp-Titling.otf */; };
+		555911281A6A5DD400CD4A8C /* NeutraText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910F31A6A5DD400CD4A8C /* NeutraText-Bold.otf */; };
+		555911291A6A5DD400CD4A8C /* NeutraText-BoldAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910F41A6A5DD400CD4A8C /* NeutraText-BoldAlt.otf */; };
+		5559112A1A6A5DD400CD4A8C /* NeutraText-BoldFractions.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910F51A6A5DD400CD4A8C /* NeutraText-BoldFractions.otf */; };
+		5559112B1A6A5DD400CD4A8C /* NeutraText-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910F61A6A5DD400CD4A8C /* NeutraText-BoldItalic.otf */; };
+		5559112C1A6A5DD400CD4A8C /* NeutraText-BoldItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910F71A6A5DD400CD4A8C /* NeutraText-BoldItalicAlt.otf */; };
+		5559112D1A6A5DD400CD4A8C /* NeutraText-BoldItalicFract.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910F81A6A5DD400CD4A8C /* NeutraText-BoldItalicFract.otf */; };
+		5559112E1A6A5DD400CD4A8C /* NeutraText-BoldSC.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910F91A6A5DD400CD4A8C /* NeutraText-BoldSC.otf */; };
+		5559112F1A6A5DD400CD4A8C /* NeutraText-BoldSCAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910FA1A6A5DD400CD4A8C /* NeutraText-BoldSCAlt.otf */; };
+		555911301A6A5DD400CD4A8C /* NeutraText-BoldSCItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910FB1A6A5DD400CD4A8C /* NeutraText-BoldSCItalic.otf */; };
+		555911311A6A5DD400CD4A8C /* NeutraText-BoldSCItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910FC1A6A5DD400CD4A8C /* NeutraText-BoldSCItalicAlt.otf */; };
+		555911321A6A5DD400CD4A8C /* NeutraText-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910FD1A6A5DD400CD4A8C /* NeutraText-Book.otf */; };
+		555911331A6A5DD400CD4A8C /* NeutraText-BookAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910FE1A6A5DD400CD4A8C /* NeutraText-BookAlt.otf */; };
+		555911341A6A5DD400CD4A8C /* NeutraText-BookFractions.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555910FF1A6A5DD400CD4A8C /* NeutraText-BookFractions.otf */; };
+		555911351A6A5DD400CD4A8C /* NeutraText-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911001A6A5DD400CD4A8C /* NeutraText-BookItalic.otf */; };
+		555911361A6A5DD400CD4A8C /* NeutraText-BookItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911011A6A5DD400CD4A8C /* NeutraText-BookItalicAlt.otf */; };
+		555911371A6A5DD400CD4A8C /* NeutraText-BookItalicFract.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911021A6A5DD400CD4A8C /* NeutraText-BookItalicFract.otf */; };
+		555911381A6A5DD400CD4A8C /* NeutraText-BookSC.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911031A6A5DD400CD4A8C /* NeutraText-BookSC.otf */; };
+		555911391A6A5DD400CD4A8C /* NeutraText-BookSCAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911041A6A5DD400CD4A8C /* NeutraText-BookSCAlt.otf */; };
+		5559113A1A6A5DD400CD4A8C /* NeutraText-BookSCItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911051A6A5DD400CD4A8C /* NeutraText-BookSCItalic.otf */; };
+		5559113B1A6A5DD400CD4A8C /* NeutraText-BookSCItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911061A6A5DD400CD4A8C /* NeutraText-BookSCItalicAlt.otf */; };
+		5559113C1A6A5DD400CD4A8C /* NeutraText-Demi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911071A6A5DD400CD4A8C /* NeutraText-Demi.otf */; };
+		5559113D1A6A5DD400CD4A8C /* NeutraText-DemiAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911081A6A5DD400CD4A8C /* NeutraText-DemiAlt.otf */; };
+		5559113E1A6A5DD400CD4A8C /* NeutraText-DemiFractions.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911091A6A5DD400CD4A8C /* NeutraText-DemiFractions.otf */; };
+		5559113F1A6A5DD400CD4A8C /* NeutraText-DemiItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5559110A1A6A5DD400CD4A8C /* NeutraText-DemiItalic.otf */; };
+		555911401A6A5DD400CD4A8C /* NeutraText-DemiItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5559110B1A6A5DD400CD4A8C /* NeutraText-DemiItalicAlt.otf */; };
+		555911411A6A5DD400CD4A8C /* NeutraText-DemiItalicFract.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5559110C1A6A5DD400CD4A8C /* NeutraText-DemiItalicFract.otf */; };
+		555911421A6A5DD400CD4A8C /* NeutraText-DemiSC.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5559110D1A6A5DD400CD4A8C /* NeutraText-DemiSC.otf */; };
+		555911431A6A5DD400CD4A8C /* NeutraText-DemiSCAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5559110E1A6A5DD400CD4A8C /* NeutraText-DemiSCAlt.otf */; };
+		555911441A6A5DD400CD4A8C /* NeutraText-DemiSCItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5559110F1A6A5DD400CD4A8C /* NeutraText-DemiSCItalic.otf */; };
+		555911451A6A5DD400CD4A8C /* NeutraText-DemiSCItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911101A6A5DD400CD4A8C /* NeutraText-DemiSCItalicAlt.otf */; };
+		555911461A6A5DD400CD4A8C /* NeutraText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911111A6A5DD400CD4A8C /* NeutraText-Light.otf */; };
+		555911471A6A5DD400CD4A8C /* NeutraText-LightAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911121A6A5DD400CD4A8C /* NeutraText-LightAlt.otf */; };
+		555911481A6A5DD400CD4A8C /* NeutraText-LightFractions.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911131A6A5DD400CD4A8C /* NeutraText-LightFractions.otf */; };
+		555911491A6A5DD400CD4A8C /* NeutraText-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911141A6A5DD400CD4A8C /* NeutraText-LightItalic.otf */; };
+		5559114A1A6A5DD400CD4A8C /* NeutraText-LightItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911151A6A5DD400CD4A8C /* NeutraText-LightItalicAlt.otf */; };
+		5559114B1A6A5DD400CD4A8C /* NeutraText-LightItalicFract.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911161A6A5DD400CD4A8C /* NeutraText-LightItalicFract.otf */; };
+		5559114C1A6A5DD400CD4A8C /* NeutraText-LightSC.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911171A6A5DD400CD4A8C /* NeutraText-LightSC.otf */; };
+		5559114D1A6A5DD400CD4A8C /* NeutraText-LightSCAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911181A6A5DD400CD4A8C /* NeutraText-LightSCAlt.otf */; };
+		5559114E1A6A5DD400CD4A8C /* NeutraText-LightSCItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555911191A6A5DD400CD4A8C /* NeutraText-LightSCItalic.otf */; };
+		5559114F1A6A5DD400CD4A8C /* NeutraText-LightSCItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5559111A1A6A5DD400CD4A8C /* NeutraText-LightSCItalicAlt.otf */; };
+		555911521A6A5E0B00CD4A8C /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 555911511A6A5E0B00CD4A8C /* background@2x.png */; };
+		555911841A6A6E1B00CD4A8C /* ic_person@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 555911831A6A6E1B00CD4A8C /* ic_person@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +84,68 @@
 		2E53C2AB1A664D600019C3D8 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E53C2AF1A664D600019C3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E53C2B01A664D600019C3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E53C2B21A664D600019C3D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E53C2B21A664D600019C3D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = tips/ViewController.swift; sourceTree = SOURCE_ROOT; };
 		2E53C2B51A664D600019C3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E53C2B71A664D600019C3D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2E53C2BA1A664D600019C3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2E53C2C01A664D600019C3D8 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E53C2C51A664D600019C3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E53C2C61A664D600019C3D8 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
-		555910E41A6A4DCA00CD4A8C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = tipsClassy/Main.storyboard; sourceTree = "<group>"; };
+		555910E61A6A5DD400CD4A8C /* NeutraDisp-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-Bold.otf"; path = "Resources/Fonts/NeutraDisp-Bold.otf"; sourceTree = "<group>"; };
+		555910E71A6A5DD400CD4A8C /* NeutraDisp-BoldAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-BoldAlt.otf"; path = "Resources/Fonts/NeutraDisp-BoldAlt.otf"; sourceTree = "<group>"; };
+		555910E81A6A5DD400CD4A8C /* NeutraDisp-Drafting.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-Drafting.otf"; path = "Resources/Fonts/NeutraDisp-Drafting.otf"; sourceTree = "<group>"; };
+		555910E91A6A5DD400CD4A8C /* NeutraDisp-DraftingAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-DraftingAlt.otf"; path = "Resources/Fonts/NeutraDisp-DraftingAlt.otf"; sourceTree = "<group>"; };
+		555910EA1A6A5DD400CD4A8C /* NeutraDisp-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-Light.otf"; path = "Resources/Fonts/NeutraDisp-Light.otf"; sourceTree = "<group>"; };
+		555910EB1A6A5DD400CD4A8C /* NeutraDisp-LightAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-LightAlt.otf"; path = "Resources/Fonts/NeutraDisp-LightAlt.otf"; sourceTree = "<group>"; };
+		555910EC1A6A5DD400CD4A8C /* NeutraDisp-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-Medium.otf"; path = "Resources/Fonts/NeutraDisp-Medium.otf"; sourceTree = "<group>"; };
+		555910ED1A6A5DD400CD4A8C /* NeutraDisp-MediumAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-MediumAlt.otf"; path = "Resources/Fonts/NeutraDisp-MediumAlt.otf"; sourceTree = "<group>"; };
+		555910EE1A6A5DD400CD4A8C /* NeutraDisp-Num.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-Num.otf"; path = "Resources/Fonts/NeutraDisp-Num.otf"; sourceTree = "<group>"; };
+		555910EF1A6A5DD400CD4A8C /* NeutraDisp-NumAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-NumAlt.otf"; path = "Resources/Fonts/NeutraDisp-NumAlt.otf"; sourceTree = "<group>"; };
+		555910F01A6A5DD400CD4A8C /* NeutraDisp-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-Thin.otf"; path = "Resources/Fonts/NeutraDisp-Thin.otf"; sourceTree = "<group>"; };
+		555910F11A6A5DD400CD4A8C /* NeutraDisp-ThinAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-ThinAlt.otf"; path = "Resources/Fonts/NeutraDisp-ThinAlt.otf"; sourceTree = "<group>"; };
+		555910F21A6A5DD400CD4A8C /* NeutraDisp-Titling.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraDisp-Titling.otf"; path = "Resources/Fonts/NeutraDisp-Titling.otf"; sourceTree = "<group>"; };
+		555910F31A6A5DD400CD4A8C /* NeutraText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-Bold.otf"; path = "Resources/Fonts/NeutraText-Bold.otf"; sourceTree = "<group>"; };
+		555910F41A6A5DD400CD4A8C /* NeutraText-BoldAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BoldAlt.otf"; path = "Resources/Fonts/NeutraText-BoldAlt.otf"; sourceTree = "<group>"; };
+		555910F51A6A5DD400CD4A8C /* NeutraText-BoldFractions.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BoldFractions.otf"; path = "Resources/Fonts/NeutraText-BoldFractions.otf"; sourceTree = "<group>"; };
+		555910F61A6A5DD400CD4A8C /* NeutraText-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BoldItalic.otf"; path = "Resources/Fonts/NeutraText-BoldItalic.otf"; sourceTree = "<group>"; };
+		555910F71A6A5DD400CD4A8C /* NeutraText-BoldItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BoldItalicAlt.otf"; path = "Resources/Fonts/NeutraText-BoldItalicAlt.otf"; sourceTree = "<group>"; };
+		555910F81A6A5DD400CD4A8C /* NeutraText-BoldItalicFract.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BoldItalicFract.otf"; path = "Resources/Fonts/NeutraText-BoldItalicFract.otf"; sourceTree = "<group>"; };
+		555910F91A6A5DD400CD4A8C /* NeutraText-BoldSC.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BoldSC.otf"; path = "Resources/Fonts/NeutraText-BoldSC.otf"; sourceTree = "<group>"; };
+		555910FA1A6A5DD400CD4A8C /* NeutraText-BoldSCAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BoldSCAlt.otf"; path = "Resources/Fonts/NeutraText-BoldSCAlt.otf"; sourceTree = "<group>"; };
+		555910FB1A6A5DD400CD4A8C /* NeutraText-BoldSCItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BoldSCItalic.otf"; path = "Resources/Fonts/NeutraText-BoldSCItalic.otf"; sourceTree = "<group>"; };
+		555910FC1A6A5DD400CD4A8C /* NeutraText-BoldSCItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BoldSCItalicAlt.otf"; path = "Resources/Fonts/NeutraText-BoldSCItalicAlt.otf"; sourceTree = "<group>"; };
+		555910FD1A6A5DD400CD4A8C /* NeutraText-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-Book.otf"; path = "Resources/Fonts/NeutraText-Book.otf"; sourceTree = "<group>"; };
+		555910FE1A6A5DD400CD4A8C /* NeutraText-BookAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BookAlt.otf"; path = "Resources/Fonts/NeutraText-BookAlt.otf"; sourceTree = "<group>"; };
+		555910FF1A6A5DD400CD4A8C /* NeutraText-BookFractions.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BookFractions.otf"; path = "Resources/Fonts/NeutraText-BookFractions.otf"; sourceTree = "<group>"; };
+		555911001A6A5DD400CD4A8C /* NeutraText-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BookItalic.otf"; path = "Resources/Fonts/NeutraText-BookItalic.otf"; sourceTree = "<group>"; };
+		555911011A6A5DD400CD4A8C /* NeutraText-BookItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BookItalicAlt.otf"; path = "Resources/Fonts/NeutraText-BookItalicAlt.otf"; sourceTree = "<group>"; };
+		555911021A6A5DD400CD4A8C /* NeutraText-BookItalicFract.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BookItalicFract.otf"; path = "Resources/Fonts/NeutraText-BookItalicFract.otf"; sourceTree = "<group>"; };
+		555911031A6A5DD400CD4A8C /* NeutraText-BookSC.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BookSC.otf"; path = "Resources/Fonts/NeutraText-BookSC.otf"; sourceTree = "<group>"; };
+		555911041A6A5DD400CD4A8C /* NeutraText-BookSCAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BookSCAlt.otf"; path = "Resources/Fonts/NeutraText-BookSCAlt.otf"; sourceTree = "<group>"; };
+		555911051A6A5DD400CD4A8C /* NeutraText-BookSCItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BookSCItalic.otf"; path = "Resources/Fonts/NeutraText-BookSCItalic.otf"; sourceTree = "<group>"; };
+		555911061A6A5DD400CD4A8C /* NeutraText-BookSCItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-BookSCItalicAlt.otf"; path = "Resources/Fonts/NeutraText-BookSCItalicAlt.otf"; sourceTree = "<group>"; };
+		555911071A6A5DD400CD4A8C /* NeutraText-Demi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-Demi.otf"; path = "Resources/Fonts/NeutraText-Demi.otf"; sourceTree = "<group>"; };
+		555911081A6A5DD400CD4A8C /* NeutraText-DemiAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-DemiAlt.otf"; path = "Resources/Fonts/NeutraText-DemiAlt.otf"; sourceTree = "<group>"; };
+		555911091A6A5DD400CD4A8C /* NeutraText-DemiFractions.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-DemiFractions.otf"; path = "Resources/Fonts/NeutraText-DemiFractions.otf"; sourceTree = "<group>"; };
+		5559110A1A6A5DD400CD4A8C /* NeutraText-DemiItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-DemiItalic.otf"; path = "Resources/Fonts/NeutraText-DemiItalic.otf"; sourceTree = "<group>"; };
+		5559110B1A6A5DD400CD4A8C /* NeutraText-DemiItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-DemiItalicAlt.otf"; path = "Resources/Fonts/NeutraText-DemiItalicAlt.otf"; sourceTree = "<group>"; };
+		5559110C1A6A5DD400CD4A8C /* NeutraText-DemiItalicFract.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-DemiItalicFract.otf"; path = "Resources/Fonts/NeutraText-DemiItalicFract.otf"; sourceTree = "<group>"; };
+		5559110D1A6A5DD400CD4A8C /* NeutraText-DemiSC.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-DemiSC.otf"; path = "Resources/Fonts/NeutraText-DemiSC.otf"; sourceTree = "<group>"; };
+		5559110E1A6A5DD400CD4A8C /* NeutraText-DemiSCAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-DemiSCAlt.otf"; path = "Resources/Fonts/NeutraText-DemiSCAlt.otf"; sourceTree = "<group>"; };
+		5559110F1A6A5DD400CD4A8C /* NeutraText-DemiSCItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-DemiSCItalic.otf"; path = "Resources/Fonts/NeutraText-DemiSCItalic.otf"; sourceTree = "<group>"; };
+		555911101A6A5DD400CD4A8C /* NeutraText-DemiSCItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-DemiSCItalicAlt.otf"; path = "Resources/Fonts/NeutraText-DemiSCItalicAlt.otf"; sourceTree = "<group>"; };
+		555911111A6A5DD400CD4A8C /* NeutraText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-Light.otf"; path = "Resources/Fonts/NeutraText-Light.otf"; sourceTree = "<group>"; };
+		555911121A6A5DD400CD4A8C /* NeutraText-LightAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-LightAlt.otf"; path = "Resources/Fonts/NeutraText-LightAlt.otf"; sourceTree = "<group>"; };
+		555911131A6A5DD400CD4A8C /* NeutraText-LightFractions.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-LightFractions.otf"; path = "Resources/Fonts/NeutraText-LightFractions.otf"; sourceTree = "<group>"; };
+		555911141A6A5DD400CD4A8C /* NeutraText-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-LightItalic.otf"; path = "Resources/Fonts/NeutraText-LightItalic.otf"; sourceTree = "<group>"; };
+		555911151A6A5DD400CD4A8C /* NeutraText-LightItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-LightItalicAlt.otf"; path = "Resources/Fonts/NeutraText-LightItalicAlt.otf"; sourceTree = "<group>"; };
+		555911161A6A5DD400CD4A8C /* NeutraText-LightItalicFract.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-LightItalicFract.otf"; path = "Resources/Fonts/NeutraText-LightItalicFract.otf"; sourceTree = "<group>"; };
+		555911171A6A5DD400CD4A8C /* NeutraText-LightSC.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-LightSC.otf"; path = "Resources/Fonts/NeutraText-LightSC.otf"; sourceTree = "<group>"; };
+		555911181A6A5DD400CD4A8C /* NeutraText-LightSCAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-LightSCAlt.otf"; path = "Resources/Fonts/NeutraText-LightSCAlt.otf"; sourceTree = "<group>"; };
+		555911191A6A5DD400CD4A8C /* NeutraText-LightSCItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-LightSCItalic.otf"; path = "Resources/Fonts/NeutraText-LightSCItalic.otf"; sourceTree = "<group>"; };
+		5559111A1A6A5DD400CD4A8C /* NeutraText-LightSCItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeutraText-LightSCItalicAlt.otf"; path = "Resources/Fonts/NeutraText-LightSCItalicAlt.otf"; sourceTree = "<group>"; };
+		555911511A6A5E0B00CD4A8C /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "Resources/Images/background@2x.png"; sourceTree = "<group>"; };
+		555911831A6A6E1B00CD4A8C /* ic_person@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ic_person@2x.png"; path = "Resources/Images/ic_person@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +169,6 @@
 		2E53C2A21A664D600019C3D8 = {
 			isa = PBXGroup;
 			children = (
-				555910E41A6A4DCA00CD4A8C /* Main.storyboard */,
 				2E53C2AD1A664D600019C3D8 /* tips */,
 				2E53C2C31A664D600019C3D8 /* tipsTests */,
 				2E53C2AC1A664D600019C3D8 /* Products */,
@@ -80,6 +187,7 @@
 		2E53C2AD1A664D600019C3D8 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				555911531A6A5E1400CD4A8C /* Resources */,
 				2E53C2B01A664D600019C3D8 /* AppDelegate.swift */,
 				2E53C2B21A664D600019C3D8 /* ViewController.swift */,
 				2E53C2B41A664D600019C3D8 /* Main.storyboard */,
@@ -113,6 +221,84 @@
 				2E53C2C51A664D600019C3D8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		555911501A6A5DEE00CD4A8C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				555910E61A6A5DD400CD4A8C /* NeutraDisp-Bold.otf */,
+				555910E71A6A5DD400CD4A8C /* NeutraDisp-BoldAlt.otf */,
+				555910E81A6A5DD400CD4A8C /* NeutraDisp-Drafting.otf */,
+				555910E91A6A5DD400CD4A8C /* NeutraDisp-DraftingAlt.otf */,
+				555910EA1A6A5DD400CD4A8C /* NeutraDisp-Light.otf */,
+				555910EB1A6A5DD400CD4A8C /* NeutraDisp-LightAlt.otf */,
+				555910EC1A6A5DD400CD4A8C /* NeutraDisp-Medium.otf */,
+				555910ED1A6A5DD400CD4A8C /* NeutraDisp-MediumAlt.otf */,
+				555910EE1A6A5DD400CD4A8C /* NeutraDisp-Num.otf */,
+				555910EF1A6A5DD400CD4A8C /* NeutraDisp-NumAlt.otf */,
+				555910F01A6A5DD400CD4A8C /* NeutraDisp-Thin.otf */,
+				555910F11A6A5DD400CD4A8C /* NeutraDisp-ThinAlt.otf */,
+				555910F21A6A5DD400CD4A8C /* NeutraDisp-Titling.otf */,
+				555910F31A6A5DD400CD4A8C /* NeutraText-Bold.otf */,
+				555910F41A6A5DD400CD4A8C /* NeutraText-BoldAlt.otf */,
+				555910F51A6A5DD400CD4A8C /* NeutraText-BoldFractions.otf */,
+				555910F61A6A5DD400CD4A8C /* NeutraText-BoldItalic.otf */,
+				555910F71A6A5DD400CD4A8C /* NeutraText-BoldItalicAlt.otf */,
+				555910F81A6A5DD400CD4A8C /* NeutraText-BoldItalicFract.otf */,
+				555910F91A6A5DD400CD4A8C /* NeutraText-BoldSC.otf */,
+				555910FA1A6A5DD400CD4A8C /* NeutraText-BoldSCAlt.otf */,
+				555910FB1A6A5DD400CD4A8C /* NeutraText-BoldSCItalic.otf */,
+				555910FC1A6A5DD400CD4A8C /* NeutraText-BoldSCItalicAlt.otf */,
+				555910FD1A6A5DD400CD4A8C /* NeutraText-Book.otf */,
+				555910FE1A6A5DD400CD4A8C /* NeutraText-BookAlt.otf */,
+				555910FF1A6A5DD400CD4A8C /* NeutraText-BookFractions.otf */,
+				555911001A6A5DD400CD4A8C /* NeutraText-BookItalic.otf */,
+				555911011A6A5DD400CD4A8C /* NeutraText-BookItalicAlt.otf */,
+				555911021A6A5DD400CD4A8C /* NeutraText-BookItalicFract.otf */,
+				555911031A6A5DD400CD4A8C /* NeutraText-BookSC.otf */,
+				555911041A6A5DD400CD4A8C /* NeutraText-BookSCAlt.otf */,
+				555911051A6A5DD400CD4A8C /* NeutraText-BookSCItalic.otf */,
+				555911061A6A5DD400CD4A8C /* NeutraText-BookSCItalicAlt.otf */,
+				555911071A6A5DD400CD4A8C /* NeutraText-Demi.otf */,
+				555911081A6A5DD400CD4A8C /* NeutraText-DemiAlt.otf */,
+				555911091A6A5DD400CD4A8C /* NeutraText-DemiFractions.otf */,
+				5559110A1A6A5DD400CD4A8C /* NeutraText-DemiItalic.otf */,
+				5559110B1A6A5DD400CD4A8C /* NeutraText-DemiItalicAlt.otf */,
+				5559110C1A6A5DD400CD4A8C /* NeutraText-DemiItalicFract.otf */,
+				5559110D1A6A5DD400CD4A8C /* NeutraText-DemiSC.otf */,
+				5559110E1A6A5DD400CD4A8C /* NeutraText-DemiSCAlt.otf */,
+				5559110F1A6A5DD400CD4A8C /* NeutraText-DemiSCItalic.otf */,
+				555911101A6A5DD400CD4A8C /* NeutraText-DemiSCItalicAlt.otf */,
+				555911111A6A5DD400CD4A8C /* NeutraText-Light.otf */,
+				555911121A6A5DD400CD4A8C /* NeutraText-LightAlt.otf */,
+				555911131A6A5DD400CD4A8C /* NeutraText-LightFractions.otf */,
+				555911141A6A5DD400CD4A8C /* NeutraText-LightItalic.otf */,
+				555911151A6A5DD400CD4A8C /* NeutraText-LightItalicAlt.otf */,
+				555911161A6A5DD400CD4A8C /* NeutraText-LightItalicFract.otf */,
+				555911171A6A5DD400CD4A8C /* NeutraText-LightSC.otf */,
+				555911181A6A5DD400CD4A8C /* NeutraText-LightSCAlt.otf */,
+				555911191A6A5DD400CD4A8C /* NeutraText-LightSCItalic.otf */,
+				5559111A1A6A5DD400CD4A8C /* NeutraText-LightSCItalicAlt.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		555911531A6A5E1400CD4A8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				555911541A6A5E1E00CD4A8C /* Assets */,
+				555911501A6A5DEE00CD4A8C /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		555911541A6A5E1E00CD4A8C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				555911831A6A6E1B00CD4A8C /* ic_person@2x.png */,
+				555911511A6A5E0B00CD4A8C /* background@2x.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,10 +382,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555911421A6A5DD400CD4A8C /* NeutraText-DemiSC.otf in Resources */,
+				5559114B1A6A5DD400CD4A8C /* NeutraText-LightItalicFract.otf in Resources */,
+				5559112F1A6A5DD400CD4A8C /* NeutraText-BoldSCAlt.otf in Resources */,
+				555911431A6A5DD400CD4A8C /* NeutraText-DemiSCAlt.otf in Resources */,
+				5559113C1A6A5DD400CD4A8C /* NeutraText-Demi.otf in Resources */,
+				555911291A6A5DD400CD4A8C /* NeutraText-BoldAlt.otf in Resources */,
+				555911441A6A5DD400CD4A8C /* NeutraText-DemiSCItalic.otf in Resources */,
+				555911201A6A5DD400CD4A8C /* NeutraDisp-LightAlt.otf in Resources */,
+				555911401A6A5DD400CD4A8C /* NeutraText-DemiItalicAlt.otf in Resources */,
+				5559112C1A6A5DD400CD4A8C /* NeutraText-BoldItalicAlt.otf in Resources */,
+				5559114A1A6A5DD400CD4A8C /* NeutraText-LightItalicAlt.otf in Resources */,
+				5559113E1A6A5DD400CD4A8C /* NeutraText-DemiFractions.otf in Resources */,
+				5559114F1A6A5DD400CD4A8C /* NeutraText-LightSCItalicAlt.otf in Resources */,
+				555911241A6A5DD400CD4A8C /* NeutraDisp-NumAlt.otf in Resources */,
+				5559112E1A6A5DD400CD4A8C /* NeutraText-BoldSC.otf in Resources */,
+				5559113B1A6A5DD400CD4A8C /* NeutraText-BookSCItalicAlt.otf in Resources */,
+				555911231A6A5DD400CD4A8C /* NeutraDisp-Num.otf in Resources */,
+				5559114E1A6A5DD400CD4A8C /* NeutraText-LightSCItalic.otf in Resources */,
+				555911371A6A5DD400CD4A8C /* NeutraText-BookItalicFract.otf in Resources */,
+				555911521A6A5E0B00CD4A8C /* background@2x.png in Resources */,
+				555911251A6A5DD400CD4A8C /* NeutraDisp-Thin.otf in Resources */,
+				555911311A6A5DD400CD4A8C /* NeutraText-BoldSCItalicAlt.otf in Resources */,
+				555911271A6A5DD400CD4A8C /* NeutraDisp-Titling.otf in Resources */,
+				5559113F1A6A5DD400CD4A8C /* NeutraText-DemiItalic.otf in Resources */,
+				5559113A1A6A5DD400CD4A8C /* NeutraText-BookSCItalic.otf in Resources */,
+				555911301A6A5DD400CD4A8C /* NeutraText-BoldSCItalic.otf in Resources */,
+				555911461A6A5DD400CD4A8C /* NeutraText-Light.otf in Resources */,
+				555911381A6A5DD400CD4A8C /* NeutraText-BookSC.otf in Resources */,
+				5559113D1A6A5DD400CD4A8C /* NeutraText-DemiAlt.otf in Resources */,
+				555911471A6A5DD400CD4A8C /* NeutraText-LightAlt.otf in Resources */,
+				5559111E1A6A5DD400CD4A8C /* NeutraDisp-DraftingAlt.otf in Resources */,
+				555911841A6A6E1B00CD4A8C /* ic_person@2x.png in Resources */,
+				555911451A6A5DD400CD4A8C /* NeutraText-DemiSCItalicAlt.otf in Resources */,
 				2E53C2B61A664D600019C3D8 /* Main.storyboard in Resources */,
+				5559112D1A6A5DD400CD4A8C /* NeutraText-BoldItalicFract.otf in Resources */,
+				5559112B1A6A5DD400CD4A8C /* NeutraText-BoldItalic.otf in Resources */,
+				555911221A6A5DD400CD4A8C /* NeutraDisp-MediumAlt.otf in Resources */,
+				555911351A6A5DD400CD4A8C /* NeutraText-BookItalic.otf in Resources */,
+				555911321A6A5DD400CD4A8C /* NeutraText-Book.otf in Resources */,
+				555911341A6A5DD400CD4A8C /* NeutraText-BookFractions.otf in Resources */,
+				555911361A6A5DD400CD4A8C /* NeutraText-BookItalicAlt.otf in Resources */,
+				555911211A6A5DD400CD4A8C /* NeutraDisp-Medium.otf in Resources */,
+				5559114D1A6A5DD400CD4A8C /* NeutraText-LightSCAlt.otf in Resources */,
+				5559114C1A6A5DD400CD4A8C /* NeutraText-LightSC.otf in Resources */,
+				5559112A1A6A5DD400CD4A8C /* NeutraText-BoldFractions.otf in Resources */,
+				5559111D1A6A5DD400CD4A8C /* NeutraDisp-Drafting.otf in Resources */,
 				2E53C2BB1A664D600019C3D8 /* LaunchScreen.xib in Resources */,
+				5559111C1A6A5DD400CD4A8C /* NeutraDisp-BoldAlt.otf in Resources */,
+				555911491A6A5DD400CD4A8C /* NeutraText-LightItalic.otf in Resources */,
+				555911331A6A5DD400CD4A8C /* NeutraText-BookAlt.otf in Resources */,
 				2E53C2B81A664D600019C3D8 /* Images.xcassets in Resources */,
-				555910E51A6A4DCA00CD4A8C /* Main.storyboard in Resources */,
+				555911261A6A5DD400CD4A8C /* NeutraDisp-ThinAlt.otf in Resources */,
+				555911391A6A5DD400CD4A8C /* NeutraText-BookSCAlt.otf in Resources */,
+				555911281A6A5DD400CD4A8C /* NeutraText-Bold.otf in Resources */,
+				5559111B1A6A5DD400CD4A8C /* NeutraDisp-Bold.otf in Resources */,
+				5559111F1A6A5DD400CD4A8C /* NeutraDisp-Light.otf in Resources */,
+				555911411A6A5DD400CD4A8C /* NeutraText-DemiItalicFract.otf in Resources */,
+				555911481A6A5DD400CD4A8C /* NeutraText-LightFractions.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
