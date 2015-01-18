@@ -32,6 +32,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var rule3: UIView!
     @IBOutlet weak var rule4: UIView!
     @IBOutlet weak var segControl: UISegmentedControl!
+    @IBOutlet weak var tipViewContainer: UIView!
+    @IBOutlet weak var billAmountLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,34 +45,33 @@ class ViewController: UIViewController {
         totalLabel3.text = "$0"
         totalLabel4.text = "$0"
         
-        func hideContainerView(){
-            
-            //try putting these into an array
-            self.tipLabel.hidden = true
-            
-            self.totalLabel.hidden = true
-            self.totalLabel2.hidden = true
-            self.totalLabel3.hidden = true
-            self.totalLabel4.hidden = true
-            
-            self.personIcon1.hidden = true
-            self.personIcon21.hidden = true
-            self.personIcon22.hidden = true
-            self.personIcon31.hidden = true
-            self.personIcon32.hidden = true
-            self.personIcon33.hidden = true
-            self.personIcon41.hidden = true
-            self.personIcon42.hidden = true
-            self.personIcon43.hidden = true
-            self.personIcon44.hidden = true
-            
-            self.rule1.hidden = true
-            self.rule2.hidden = true
-            self.rule3.hidden = true
-            self.rule4.hidden = true
-            
-            self.segControl.hidden = true
-        }
+        self.segControl.hidden = true
+        self.tipViewContainer.hidden = true
+        
+            //try putting these into an array?
+//            self.tipLabel.hidden = true
+//            
+//            self.totalLabel.hidden = true
+//            self.totalLabel2.hidden = true
+//            self.totalLabel3.hidden = true
+//            self.totalLabel4.hidden = true
+//            
+//            self.personIcon1.hidden = true
+//            self.personIcon21.hidden = true
+//            self.personIcon22.hidden = true
+//            self.personIcon31.hidden = true
+//            self.personIcon32.hidden = true
+//            self.personIcon33.hidden = true
+//            self.personIcon41.hidden = true
+//            self.personIcon42.hidden = true
+//            self.personIcon43.hidden = true
+//            self.personIcon44.hidden = true
+//            
+//            self.rule1.hidden = true
+//            self.rule2.hidden = true
+//            self.rule3.hidden = true
+//            self.rule4.hidden = true
+        
     }
 
     
@@ -79,7 +80,27 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 
+    @IBAction func tapToAnimateViewIn(sender: AnyObject) {
+        
+        // animation blocks
+        // Optionally initialize the property to a desired starting value
+        self.segControl.alpha = 0
+        self.segControl.hidden = false
+        self.tipViewContainer.alpha = 0
+        self.tipViewContainer.hidden = false
+        
+        UIView.animateWithDuration(0.4, animations: {
+            // Fade in SegControls and tip calculator
+            self.segControl.alpha = 1
+            self.tipViewContainer.alpha = 1
+        })
+    }
+    
+    // Update tip amounts based on input (Bill Amount)
+    
     @IBAction func onEditingChanged(sender: AnyObject) {
         
         var tipPercentages = [0.18, 0.2, 0.22]
@@ -91,6 +112,9 @@ class ViewController: UIViewController {
         var total2 = (billAmount + tip) / 2
         var total3 = (billAmount + tip) / 3
         var total4 = (billAmount + tip) / 4
+        
+//        var billAmountContainer = [billField, billAmountLabel]
+//        var tipCalculatorContainer = [tipViewContainer, segControl]
         
         tipLabel.text = "$\(tip)"
         totalLabel.text = "$\(total)"

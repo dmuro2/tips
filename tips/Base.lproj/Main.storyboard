@@ -40,6 +40,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="onEditingChanged:" destination="vXZ-lx-hvc" eventType="editingChanged" id="O0Z-76-Ac1"/>
+                                    <action selector="tapToAnimateViewIn:" destination="vXZ-lx-hvc" eventType="touchDown" id="hGx-dw-xAR"/>
                                 </connections>
                             </textField>
                             <segmentedControl opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="fill" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="5kk-Nd-qoJ">
@@ -166,6 +167,7 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="billAmountLabel" destination="Hix-4d-qz4" id="C6Z-XJ-YDU"/>
                         <outlet property="billField" destination="KR9-4W-ON0" id="Ufy-En-I3e"/>
                         <outlet property="personIcon1" destination="95s-5a-1tS" id="8uv-y6-hd5"/>
                         <outlet property="personIcon21" destination="HKG-WV-Bbj" id="lSY-AL-GP6"/>
@@ -184,6 +186,7 @@
                         <outlet property="segControl" destination="5kk-Nd-qoJ" id="9B5-HZ-yAN"/>
                         <outlet property="tipControl" destination="5kk-Nd-qoJ" id="Qr9-mn-8Dr"/>
                         <outlet property="tipLabel" destination="ov9-1l-njj" id="RSe-3X-Njy"/>
+                        <outlet property="tipViewContainer" destination="Q5f-8j-YJv" id="zQG-db-jPq"/>
                         <outlet property="totalLabel" destination="v37-PP-OiU" id="Bm1-tv-stq"/>
                         <outlet property="totalLabel2" destination="eWN-yc-Qa7" id="bpT-Jl-CUM"/>
                         <outlet property="totalLabel3" destination="cwQ-kL-gbz" id="TyP-rX-5eY"/>
