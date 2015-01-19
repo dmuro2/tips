@@ -9,6 +9,6 @@ Required: User can select between 18%, 20% and 22% tip, which gets added to the 
 Optional: Hide everything but the bill amount, then animate it in when the user taps to enter the bill amount
 Notes: Spent some time creating the updated UI and animating the touch event. Despite countless google searches and tutorials, I couldn't figure out how to animate the views up 20px, though I would love to learn how.
 
-/Users/david_muro/Desktop/Straight Tip'n.gif
+![alt tag](https://raw.github.com/dmuro2/tips/master/Resources/images/StraightTipn.gif)
 
 GIF created with LiceCap.
