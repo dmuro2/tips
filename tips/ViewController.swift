@@ -92,7 +92,8 @@ class ViewController: UIViewController {
         self.tipViewContainer.alpha = 0
         self.tipViewContainer.hidden = false
         
-        UIView.animateWithDuration(0.4, animations: {
+        UIView.animateWithDuration(0.4,
+            animations: {
             // Fade in SegControls and tip calculator
             self.segControl.alpha = 1
             self.tipViewContainer.alpha = 1
