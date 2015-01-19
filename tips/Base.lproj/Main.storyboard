@@ -33,7 +33,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$" textAlignment="right" minimumFontSize="17" id="KR9-4W-ON0">
-                                <rect key="frame" x="136" y="65" width="160" height="85"/>
+                                <rect key="frame" x="24" y="65" width="272" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.98835819960000004" green="0.35373812910000002" blue="0.3761391342" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="NeutraDisp-LightAlt" family="Neutra Display" pointSize="75"/>
@@ -144,7 +144,7 @@
                                         <color key="backgroundColor" red="0.99836152789999999" green="0.92552989720000001" blue="0.80363845830000002" alpha="0.10000000000000001" colorSpace="calibratedRGB"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$28.75" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TIe-x1-hG3">
-                                        <rect key="frame" x="126" y="253" width="171" height="67"/>
+                                        <rect key="frame" x="64" y="253" width="233" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="NeutraDisp-LightAlt" family="Neutra Display" pointSize="28"/>
                                         <color key="textColor" red="0.99859368800000003" green="0.93659985069999996" blue="0.83961439130000004" alpha="1" colorSpace="calibratedRGB"/>

@@ -84,19 +84,21 @@ class ViewController: UIViewController {
     
 
     @IBAction func tapToAnimateViewIn(sender: AnyObject) {
-        
+
         // animation blocks
         // Optionally initialize the property to a desired starting value
         self.segControl.alpha = 0
         self.segControl.hidden = false
         self.tipViewContainer.alpha = 0
         self.tipViewContainer.hidden = false
+    
         
         UIView.animateWithDuration(0.4,
             animations: {
             // Fade in SegControls and tip calculator
             self.segControl.alpha = 1
             self.tipViewContainer.alpha = 1
+                
         })
     }
     
